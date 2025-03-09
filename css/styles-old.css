@@ -98,7 +98,7 @@ background-color: #404bbf;
 }
 
 .info-list-item {
-    width: calc((100% - 72px) / 3);
+    width: calc((100% - 72px) / );
 }
 .info-list-container-icon {
     display: flex;

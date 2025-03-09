@@ -47,15 +47,15 @@
             </li>
           </ul>
         </address>
-        <button class="burger-btn" type="button">
+        <button class="burger-btn" type="button" data-menu-open>
           <svg class="burger-btn-icon" width="24" height="24">
             <use href="./images/icons.svg#menu-btn"></use>
           </svg>
         </button>
       </div>
-      <div class="mobile-menu is-open">
+      <div class="mobile-menu" data-menu>
         <div class="container mobile-menu-container">
-          <button class="mobile-menu-close">
+          <button class="mobile-menu-close" data-menu-close>
             <svg class="mobile-menu-close-icon" width="8" height="8">
               <use href="./images/icons.svg#icon-close"></use>
             </svg>
@@ -121,15 +121,15 @@
     <!-- #endregion Header -->
     <main>
       <!-- #region Hero -->
-      <!-- <section class="hero">
-        <div class="container">
+      <section class="hero">
+        <div class="container hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-btn" type="button" data-modal-open>Order Service</button>
         </div>
-      </section> -->
+      </section>
       <!-- #endregion Hero -->
       <!-- #region Info -->
-      <!-- <section class="sect-info section">
+      <section class="sect-info section">
         <div class="container">
           <h2 class="visually-hidden">Text</h2>
           <ul class="info-list">
@@ -183,7 +183,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-- #endregion Info -->
       <!-- #region Team-->
       <!-- <section class="team-sect section">
@@ -631,5 +631,6 @@
     </div> -->
     <!-- #endregion Modal -->
     <!-- <script src="./js/modal.js"></script> -->
+    <script src="./js/menu.js"></script>
   </body>
 </html>
