@@ -816,8 +816,8 @@ button {
 @media screen and (min-width: 768px) {
     .team-list {
         flex-wrap: wrap;
-        row-gap: 24px;
-        column-gap: 64px;
+        row-gap: 64px;
+        column-gap: 24px;
         justify-content: center;
     }
 }
